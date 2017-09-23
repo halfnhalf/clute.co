@@ -1,4 +1,4 @@
-web:
+clute.co:
   image: nginx
   volumes:
     - ./public_html:/usr/share/nginx/html
