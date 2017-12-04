@@ -5,7 +5,7 @@ $grey-darker: #121212
 $turquoise: #25E3AC
 $blue: #1C8CD9
 
-$dark: $grey-dark
+$dark: $grey-darker
 
 //$navbar-background-color: $grey-dark
 //$navbar-height: 6.5rem
@@ -13,12 +13,15 @@ $dark: $grey-dark
 
 $body-background-color: $grey-darker
 $navbar-item-img-max-height: 150px
+$subtitle-color: $blue
 
 @import "../node_modules/bulma/bulma"
 
-.navbar
-  box-shadow: 0px 5px 5px #000000
+.navbar-brand
+  box-shadow: 5px 5px 10px #000000
 
+a
+  text-decoration: underline
 a:hover
   color: $blue
 
